@@ -1,0 +1,12 @@
+Print('Day 2: 30 Days of python programming')
+  first_name ='Maria'
+  last_name = 'Jimenez'
+  full_name = first_name + last_name
+  Country = 'Venezuela'
+  City = 'Barinas'
+  age = 51
+  year = 1972
+  is_married = false
+  is_true = true
+  is_light = true
+  sobina1, sobrina2
