@@ -1,0 +1,39 @@
+my_age = 51
+my_height = 1.64
+my_complex_number = 1 + (j + 1)
+
+# Script 1 area de triangulo
+base_triangulo = int(input('Introduzca la base del triangulo:'))
+altura_triangulo = int(input('Introduzca la altura del triangulo:'))
+area_triangulo = base_triangulo * altura triangulo / 2
+print('El area del triangulo es:', area_triangulo)
+
+#Script 2 perimetro de triangulo
+print('Vamos a calcular el perimetro de un triangulo')
+print('Para eso se requiere que introduzca las medidas de cada uno de los lados del trinagulo')
+side_a = int(input('Introduzca el lado a:'))
+side_b = int(input('Introduzca el lado b:'))
+side_c = int(input('Introduzca el lado c:'))
+perimetre_total = side_a + side_b + side_c
+print('El perimetro del triangulo es: ', perimetre_total)
+
+#Script 3 perimetro de un rectangulo
+print('Vamos a calcular el perimetro de un rectangulo')
+print('Para eso se le pedira que introduzca el valor de la longitud  y la anchura')
+longitud = int(input('Introduzca la langitud del rectangulo:'))
+anchura = int(input('Introduzca la anchura del rectangulo:'))
+perimetro = 2  * longitud + anchura
+print('El perimetro del rectangulo es: ', perimetro)
+
+#Script 4 area y circunfernecia de un circulo
+print('Vamos a calcular el area y circunferencia de un circulo, para eso usted solo debe introducir el valor del radio del circulo')
+radio = int(input('Introduzca el valor del radio: '))
+pi = 3.14
+area = pi * radio ** 2
+circunferencia = 2 * pi * radio
+print('El area del circulo es: ', area)
+print('La circunferencia del circulo es: ', circunferencia)
+
+#Pendiente script 5,6, y 8
+
+
