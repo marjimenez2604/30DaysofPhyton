@@ -65,3 +65,46 @@ longitud = len('python')
 print(longitud)
 print(float(longitud))
 print(str(longitud))
+
+#Script 14 determinar si es par o no un numero
+numero = int(input('Introduzca el numero: '))
+if numero % 2 == 0:
+  print('El numero: ' + str(numero) + ' es un numero par')
+else:
+  print('El numero: ' + str(numero) + ' es un numero impar')
+
+#Script 15 floor division y conversion
+valor = 7 // 3
+if valor == int(2.7):
+  print('El ejercicio es verdadero')
+else:
+  print('El ejercicio es falso')
+
+#Script 16 para las lineas 19 y 20 del ejercicio
+tipo1 = type('10') == type(10)
+print('Esta es la forma uno de comprobar los tipos presentados: ', tipo1)
+print('Esta es la segunda forma de comparar: ', type('10') == type(10))
+if int(9.8) == 10:
+  print('El entero de 9.8 es igual a 10')
+else:
+  print('El entero de 9.8 no es igual a 10')
+
+#Script 17 calculo del pago de una persona
+horas = float(input('Numero de horas trabajadas: '))
+monto = float(input('Pago por hora: '))
+salario = horas * monto
+print('El salario de la semana es de: ', salario)
+
+#Script 18 calcular el nro de segundos 
+seg_year = 31536000
+year_convertir = int(input('Introduzca el numero de years a convertir: '))
+print('Usted ha vivido ' + str((seg_year * year_convertir)) + ' segundos')
+
+#Script 19 tabla
+mi_tabla = [[1, 1, 1, 1, 1], 
+           [2, 1, 2, 4, 8],
+           [3, 1, 3, 9, 27], 
+           [4, 1, 4, 16, 64],
+           [5, 1, 5, 25, 125]]
+for fila in mi_tabla:
+  print(fila)
