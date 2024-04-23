@@ -44,7 +44,24 @@ print('La longitud de dragon es: ', long_palabra2)
 print('Ejemplo de declaracion de comparacion falsa: ' , long_palabra1 != long_palabra2)
 
 #Script 10 uso operador AND
-print('El valor de la comparacion es: ', 
+valor = 'on' in 'python' and 'on' in 'dragon'
+if valor == True: 
+   print('On se encuentra en ambas palabras')
+else : 
+   print('On no se encuentra en ambas palabras')
 
+#Script 11 seguimos usando operadores logicos
+linea = 'i hope this course is not full of jargon'
+if 'jargo' in linea:
+   print('La sentencia es positiva')
+else:
+   print('La sentencia es negativa')
 
+#Script 12 seguimos usando operadores logicos
+print('There is no:' 'on' in 'pythON' and 'on' in 'dragon')
 
+#Script 13 longitud y conversion
+longitud = len('python')
+print(longitud)
+print(float(longitud))
+print(str(longitud))
