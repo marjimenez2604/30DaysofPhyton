@@ -36,4 +36,15 @@ print('La circunferencia del circulo es: ', circunferencia)
 
 #Pendiente script 5,6, y 8
 
+#Script 9 longitud de cadena y valores falsy
+long_palabra1 = len('python')
+print('La longitud de python es: ', long_palabra1)
+long_palabra2 = len('dragon')
+print('La longitud de dragon es: ', long_palabra2)
+print('Ejemplo de declaracion de comparacion falsa: ' , long_palabra1 != long_palabra2)
+
+#Script 10 uso operador AND
+print('El valor de la comparacion es: ', 
+
+
 
