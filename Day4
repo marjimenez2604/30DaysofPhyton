@@ -18,9 +18,13 @@ es_blanco = company.find(' ')
 company_rebanada = company[0:es_blanco]
 print(company_rebanada)
 posicion = company.index('Coding')
-if posicion > 0:
-  mensaje = 'La subcadena {} se encuentra en la posicion { }' format(company_rebanada, posicion)
+if posicion >= 0:
+  mensaje = 'La subcadena {} se encuentra en la posicion {} ' .format(company_rebanada, posicion)
   print(mensaje)
 else:
-  mensaje = 'La subcadena {} no se encuentra en la palabra ' format(company_rebanada, company)
+  mensaje = 'La subcadena {} no se encuentra en la palabra ' .format(company_rebanada, company)
   print(mensaje)
+company_modificada = company.replace('Coding','Python')
+print(company_modificada)
+company_modificada2 = company_modificada.replace('Python', 'Python for all')
+print(company_modificada2)
