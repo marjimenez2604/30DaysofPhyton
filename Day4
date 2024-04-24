@@ -1,0 +1,26 @@
+# Practica del dia 4
+# Ejercicios del 1 al xx
+cadena1, cadena2, cadena3, cadena4 = 'Thirty', 'Days', 'Of', 'Python'
+cadena = cadena1 + cadena2 + cadena3 + cadena4
+print(cadena)
+cadena5, cadena6, cadena7 = 'Coding', 'For', 'All'
+cadenaT = cadena5 + cadena6 + cadena7
+print(cadenaT)
+company = 'Coding For All'
+print(company)
+print(len(company))
+print(company.upper())
+print(company.lower())
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
+es_blanco = company.find(' ')
+company_rebanada = company[0:es_blanco]
+print(company_rebanada)
+posicion = company.index('Coding')
+if posicion > 0:
+  mensaje = 'La subcadena {} se encuentra en la posicion { }' format(company_rebanada, posicion)
+  print(mensaje)
+else:
+  mensaje = 'La subcadena {} no se encuentra en la palabra ' format(company_rebanada, company)
+  print(mensaje)
